@@ -1,4 +1,4 @@
-# Portfolio Build Prompt — Ridhanya S
+# Portfolio Build Prompt - Ridhanya S
 
 ## Project Overview
 
@@ -130,7 +130,7 @@ All sections use the pattern:
 - Company: OptiSol Business Solutions Pvt. Ltd.
 - Role: Machine Learning Engineer I | 2024 – Present | India
 - Awards (as separate badges):
-  - ★ 2× Spot Award — Technical Excellence & Consistent Delivery
+  - ★ 2× Spot Award - Technical Excellence & Consistent Delivery
   - ★ 4E Fulfillment Award
 - 8 bullet points covering: STT pipelines, Multi-Agent (LangGraph), LLM fine-tuning, OCR/Vision-LLM, prompt engineering, FastAPI REST APIs, Microsoft Graph API integrations, CI/CD/testing
 
@@ -139,13 +139,13 @@ All sections use the pattern:
 - Coimbatore Institute of Technology (CIT), Coimbatore
 
 ### 5. Publications (Conference Papers)
-- Integrated Q-Learning with Firefly Algorithm for Transportation Problems — ICNGWN 2023 — Published
-- Voice Identification Using Classification Methods — ICBAI 2021 — Presented
+- Integrated Q-Learning with Firefly Algorithm for Transportation Problems - ICNGWN 2023 - Published
+- Voice Identification Using Classification Methods - ICBAI 2021 - Presented
 
 ### 6. Projects (3 entries with metrics grid + stack tags)
-1. **Intelligent Meeting Insights & Action Management System** — Whisper STT, multi-layer validation, Trello/Confluence APIs
-2. **Automated Signature & Seal Verification System** — Azure OpenAI Vision, Gemini, AWS Rekognition benchmarking
-3. **Test Case Generation & Evaluation API** — T5/LSTM/GPT, BLEU/ROUGE/METEOR/BERTScore evals
+1. **Intelligent Meeting Insights & Action Management System** - Whisper STT, multi-layer validation, Trello/Confluence APIs
+2. **Automated Signature & Seal Verification System** - Azure OpenAI Vision, Gemini, AWS Rekognition benchmarking
+3. **Test Case Generation & Evaluation API** - T5/LSTM/GPT, BLEU/ROUGE/METEOR/BERTScore evals
 
 ### 7. Skills (6 categories, tag pills)
 - LLMs & GenAI: GPT-4, Claude, Gemini, LLaMA, Mistral, Hugging Face, Fine-tuning, Prompt Engineering, RAG
@@ -155,7 +155,7 @@ All sections use the pattern:
 - Databases & Vector DBs: MySQL, PostgreSQL, MongoDB, DynamoDB, Pinecone, ChromaDB
 - Languages, Eval & Tools: Python, JavaScript, BLEU, ROUGE, BERTScore, METEOR, A/B Testing, Pytest, SonarQube, Ruff, GitHub, Unity3D
 
-### 8. How I Build (Process — vertical timeline)
+### 8. How I Build (Process - vertical timeline)
 Section label: "How I Build"
 Heading: "The process behind every AI system I ship"
 Descriptor: "Discipline in the approach. Precision in the output."
@@ -175,8 +175,8 @@ Two-column layout: `1fr 340px`
 
 **Left:**
 - Heading: "Let's talk."
-- Body: "Whether it's a project, a role, or just an idea worth exploring — I'm always open to a good conversation about AI."
-- Button: "Copy email address" — copies `ridhanya03@gmail.com` to clipboard using `execCommand` fallback (works on HTTP), shows "✓ Copied!" for 2s
+- Body: "Whether it's a project, a role, or just an idea worth exploring - I'm always open to a good conversation about AI."
+- Button: "Copy email address" - copies `ridhanya03@gmail.com` to clipboard using `execCommand` fallback (works on HTTP), shows "✓ Copied!" for 2s
 
 **Right card:**
 - Pulsing "Open to opportunities" badge (accent color pill)
@@ -264,7 +264,7 @@ npm run start   # preview production build at localhost:3000
 
 ---
 
-### 2. Deploy to Vercel (recommended — zero config)
+### 2. Deploy to Vercel (recommended - zero config)
 
 ```bash
 # Install Vercel CLI
@@ -283,7 +283,7 @@ vercel
 Or connect via dashboard:
 1. Push repo to GitHub
 2. Go to vercel.com → New Project → Import repo
-3. Vercel auto-detects Next.js — click Deploy
+3. Vercel auto-detects Next.js - click Deploy
 4. Custom domain: Settings → Domains → Add your domain
 
 > Every `git push` to main auto-deploys.
@@ -292,7 +292,7 @@ Or connect via dashboard:
 
 ### 3. Deploy to Netlify
 
-Enable static export first — add to `next.config.ts`:
+Enable static export first - add to `next.config.ts`:
 
 ```ts
 const nextConfig: NextConfig = {
@@ -306,11 +306,11 @@ Then build and deploy:
 ```bash
 npm run build        # outputs to /out folder
 
-# Option A — Netlify CLI
+# Option A - Netlify CLI
 npm i -g netlify-cli
 netlify deploy --dir=out --prod
 
-# Option B — Netlify dashboard
+# Option B - Netlify dashboard
 # Drag and drop the /out folder at app.netlify.com/drop
 ```
 
