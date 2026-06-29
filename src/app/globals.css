@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+/* ── Dark theme (default) ── */
+:root,
+[data-theme="dark"] {
+  --bg:      #080808;
+  --bg-2:    #0f0f0f;
+  --bg-3:    #111111;
+  --bg-4:    #0a0a0a;
+  --border:  #1e1e1e;
+  --border-s: #1a1a1a;
+  --border-h: #2e2e2e;
+
+  --t1: #f0f0f0;
+  --t2: #b8b8b8;
+  --t3: #999;
+  --t4: #777;
+  --t5: #666;
+  --t6: #555;
+  --t7: #444;
+
+  --accent:         #00e5a0;
+  --accent-fg:      #000;
+  --accent-dim:     rgba(0, 229, 160, 0.06);
+  --accent-dim2:    rgba(0, 229, 160, 0.09);
+  --accent-border:  rgba(0, 229, 160, 0.2);
+  --accent-border2: rgba(0, 229, 160, 0.32);
+
+  --nav-bg:   rgba(8, 8, 8, 0.92);
+  --nav-full: rgba(8, 8, 8, 0.97);
+
+  --bg-glow: radial-gradient(ellipse 70% 45% at 50% -5%,
+               rgba(0, 229, 160, 0.09) 0%,
+               transparent 70%);
+}
+
+/* ── Light theme ── */
+[data-theme="light"] {
+  --bg:      #f7f7f5;
+  --bg-2:    #efefed;
+  --bg-3:    #ffffff;
+  --bg-4:    #fefefe;
+  --border:  #e0e0dc;
+  --border-s: #e8e8e4;
+  --border-h: #c4c4c0;
+
+  --t1: #0d0d0d;
+  --t2: #1e1e1e;
+  --t3: #444;
+  --t4: #555;
+  --t5: #666;
+  --t6: #888;
+  --t7: #aaa;
+
+  --accent:         #008c61;
+  --accent-fg:      #ffffff;
+  --accent-dim:     rgba(0, 140, 97, 0.07);
+  --accent-dim2:    rgba(0, 140, 97, 0.11);
+  --accent-border:  rgba(0, 140, 97, 0.25);
+  --accent-border2: rgba(0, 140, 97, 0.38);
+
+  --nav-bg:   rgba(247, 247, 245, 0.94);
+  --nav-full: rgba(247, 247, 245, 0.97);
+
+  --bg-glow: radial-gradient(ellipse 70% 45% at 50% -5%,
+               rgba(0, 140, 97, 0.07) 0%,
+               transparent 70%);
+}
+
+* { box-sizing: border-box; padding: 0; margin: 0; }
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) var(--bg);
+}
+
+body {
+  background-color: var(--bg);
+  background-image: var(--bg-glow);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  color: var(--t1);
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+::selection { background: var(--accent); color: var(--accent-fg); }
