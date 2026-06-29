@@ -2,6 +2,9 @@
 
 Personal portfolio for Ridhanya S, Machine Learning Engineer.
 
+🌐 **Portfolio:** [portfolio-ridhanya-s.vercel.app](https://portfolio-ridhanya-s.vercel.app/)
+
+
 ## Stack
 
 - **Next.js 16** (App Router, TypeScript)
